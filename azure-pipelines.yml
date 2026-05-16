@@ -3,12 +3,11 @@ trigger:
     include:
       - main
       - develop
-      
+
 pr:
   branches:
     include:
       - main
-
 pool:
   vmImage: 'ubuntu-latest'
 
